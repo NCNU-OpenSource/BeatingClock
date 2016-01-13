@@ -41,7 +41,9 @@
  - 需要顯示器 -> 顯示倒數時間
  - 需要按鈕 -> （1）確認鈕 （2）時間向上調按鈕 （3）時間向下調按鈕
  - 需要鈴聲 -> 音響
+
 ### GPIO設置
+
  - GPIO參考圖
 
  ![GPIO](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/GPIO參考.png)
