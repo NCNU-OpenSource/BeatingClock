@@ -2,6 +2,7 @@
 
 ## 題目發想起源
 
+
 ## 所需材料
  材料名稱 | 數量 | 單價 | 總價 | 來源
 ------------ | ------------- | -------------| -------------| -------------:|
@@ -41,7 +42,25 @@
  - 需要按鈕 -> （1）確認鈕 （2）時間向上調按鈕 （3）時間向下調按鈕
  - 需要鈴聲 -> 音響
 ### GPIO設置
-補
+ - GPIO參考圖
+
+ ![GPIO](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/GPIO參考.png)
+
+　　因為使用Python撰寫程式，引入RPI.GPIO函式庫。參考此圖，以連結我們所需的GPIO。
+ - 顯示器接法
+
+ ![顯示器](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/顯示器連結.png)
+
+ 顯示器接法參考[此連結](http://raspberrypi.powersbrewery.com/project-10-16x2-lcd-alarm-clock-with-buzzer)，並依照我們的需求做調整。
+ - 按鈕接法
+
+ ![按鈕](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/按鈕連結.jpg)
+
+ 按鈕接法參考[此連結](https://sites.google.com/site/raspberrypidiy/basic/gpioinput)。我們需要三顆按鈕，使用了pin#8、pin#11、pin#13。
+ - 馬達接法
+
+  ![馬達](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/馬達連結.png)
+
 ### 過程
 補
 
