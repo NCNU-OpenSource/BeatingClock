@@ -46,22 +46,22 @@
 
  - GPIO參考圖
 
- ![GPIO](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/GPIO參考.png)
+ ![GPIO](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/GPIO參考.png)
 
 　　因為使用Python撰寫程式，引入RPI.GPIO函式庫。參考此圖，以連結我們所需的GPIO。
  - 顯示器接法
 
- ![顯示器](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/顯示器連結.png)
+ ![顯示器](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/顯示器連結.png)
 
  顯示器接法參考[此連結](http://raspberrypi.powersbrewery.com/project-10-16x2-lcd-alarm-clock-with-buzzer)，並依照我們的需求做調整。
  - 按鈕接法
 
- ![按鈕](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/按鈕連結.jpg)
+ ![按鈕](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/按鈕連結.jpg)
 
  按鈕接法參考[此連結](https://sites.google.com/site/raspberrypidiy/basic/gpioinput)。我們需要三顆按鈕，使用了pin#8、pin#11、pin#13。
  - 馬達接法
 
-  ![馬達](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/馬達連結.png)
+  ![馬達](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/馬達連結.png)
 
 ### 過程
  1. 設定GPIO
@@ -74,7 +74,7 @@
  8. 手的製作
  9. 手與馬達的接合調整
  10. 外部包裝製作
-   ![組裝](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/組裝.jpg)
+   ![組裝](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/組裝.jpg)
 
 # 手把手教學
 
@@ -119,5 +119,4 @@ vim Test.py
  - 16行 更改馬達訊號傳輸pin腳  
 
 # 成品展示
-   ![成品圖](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/成品圖.jpg)
-   
+   ![成品圖](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/image/成品圖.jpg)
