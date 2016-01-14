@@ -64,19 +64,54 @@
   ![馬達](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/馬達連結.png)
 
 ### 過程
-補
+ 1. 設定GPIO
+ 2. 接上設備
+ 3. 音樂播放器的code
+ 4. 實作馬達code
+ 5. 馬達配合按鈕code
+ 6. 顯示器倒數時間的code
+ 7. 開機自動執行設定
+ 8. 手的製作
+ 9. 手與馬達的接合調整
+ 10. 外部包裝製作
+   ![組裝](https://github.com/NCNU-OpenSource/BeatingClock/raw/master/組裝.jpg)
 
+# 手把手教學
 
-## 碰到哪些問題、如何解決
-### 顯示器
-補
-### 時間進位
-補
-### 開機自動執行
-補
-### python
-補
-### 馬達
-補
-### 隨機播放音樂
-補
+## 直接使用
+
+### 把檔案download下來
+```
+gitclone https://github.com/NCNU-OpenSource/BeatingClock.git
+```
+### 接好相關設備
+ - 馬達
+ - 音響
+ - 顯示器
+ - 按鈕
+
+### 執行
+```
+sudo python Test.py
+```
+
+## 若有需要更改設定
+
+### 更改顯示器所使用的PIN腳
+```
+vim Adafruit_CharLCD.py
+```
+ - 更改56行
+
+### 新增音樂隨機播放
+```
+vim Test.py
+```
+ - 將音樂直接丟進資料夾，且更改第8行，將音樂檔的路徑放入
+
+### 更改其餘設定（馬達、按鈕所需PIN腳）
+```
+vim Test.py
+```
+ - 13行
+ - 14行
