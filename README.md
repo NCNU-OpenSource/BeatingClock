@@ -83,7 +83,7 @@ Raspberry pi|			1個|			-|			-|			課程提供|
 
 ### 把檔案download下來
 ```
-gitclone https://github.com/NCNU-OpenSource/BeatingClock.git
+git clone https://github.com/NCNU-OpenSource/BeatingClock.git
 ```
 ### 接好相關設備
  - 馬達
